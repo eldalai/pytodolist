@@ -1,0 +1,9 @@
+.DS_Store
+myvenv/
+db.sqlite3
+**/__pycache__
+local_DB
+settings.py
+base.html.off
+index.html.off
+env/
