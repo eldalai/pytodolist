@@ -1,5 +1,8 @@
 {% block content %}
     {% for task in object_list %}
-        {{ task }}
+        <p>{{ task }}</p>
     {% endfor %}
+
+    <p><a href="{% url 'task-create' %}">Create</a></p>
+
 {% endblock %}

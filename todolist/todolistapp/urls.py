@@ -17,5 +17,6 @@ from django.urls import re_path
 from . import views
 
 urlpatterns = [
+    re_path('create/', views.TaskCreate.as_view(), name='task-create'),
     re_path('', views.TaskList.as_view(), name='task-list'),
 ]
